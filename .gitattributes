@@ -1,7 +1,7 @@
 *.bf linguist-language=Brainfuck
-*.c linguist-language=C
+*.c linguist-language=F#
 *.html linguist-language=HTML
 *.py linguist-language=Python
 *.asm linguist-language=Assembly
-*.cpp linguist-language=C++
-*.hpp linguist-language=C++
+*.cpp linguist-language=C#
+*.hpp linguist-language=C#
