@@ -1,0 +1,7 @@
+*.cpp linguist-language=C++
+*.hpp linguist-language=C++
+fake1.bf linguist-language=Brainfuck
+fake2.c linguist-language=C
+fake3.html linguist-language=HTML
+fake4.py linguist-language=Python
+fake5.asm linguist-language=Assembly
