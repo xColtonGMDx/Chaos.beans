@@ -1,2 +1,1 @@
-# Chaos.beans
-Idk
+# Yes brainfuck is a real language
