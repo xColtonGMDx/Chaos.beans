@@ -1,7 +1,7 @@
+*.bf linguist-language=Brainfuck
+*.c linguist-language=C
+*.html linguist-language=HTML
+*.py linguist-language=Python
+*.asm linguist-language=Assembly
 *.cpp linguist-language=C++
 *.hpp linguist-language=C++
-fake1.bf linguist-language=Brainfuck
-fake2.c linguist-language=C
-fake3.html linguist-language=HTML
-fake4.py linguist-language=Python
-fake5.asm linguist-language=Assembly
