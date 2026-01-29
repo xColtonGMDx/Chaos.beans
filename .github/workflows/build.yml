@@ -1,0 +1,26 @@
+name: Build Chaos
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Install g++
+      run: sudo apt-get update && sudo apt-get install -y g++
+
+    - name: Compile chaos engine
+      run: g++ main.cpp -o chaos
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: chaos
+        path: chaos
