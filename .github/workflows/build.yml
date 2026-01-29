@@ -7,20 +7,17 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
-    - name: Install g++
-      run: sudo apt-get update && sudo apt-get install -y g++
-
-    - name: Compile chaos engine
-      run: g++ main.cpp -o chaos
+    - name: Compile chaos.exe
+      run: g++ main.cpp -o chaos.exe
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: chaos
-        path: chaos
+        path: chaos.exe
